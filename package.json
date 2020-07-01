@@ -4,6 +4,9 @@
   "description": "Standalone and headless renderer for VRM",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack --mode=development --watch",
+    "format": "prettier \"**/*.ts\" \"*.js\" --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
