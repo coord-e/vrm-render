@@ -21,6 +21,7 @@ module.exports = {
   externals: {
     gl: "commonjs gl",
     jsdom: "commonjs jsdom",
+    yargs: "commonjs yargs",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
